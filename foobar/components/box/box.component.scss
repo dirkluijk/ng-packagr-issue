@@ -1,0 +1,9 @@
+@import 'placeholders';
+
+:host {
+  @extend %foo-box !optional;
+
+  display: inline-block;
+  padding: 1rem;
+}
+
